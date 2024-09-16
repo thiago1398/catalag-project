@@ -1,0 +1,360 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: #EDE9E1;
+}
+
+header{ 
+    background: tan url("imagens/2402088.jpg") center center  ;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 550px;
+    padding: 0.1px;
+    color: white;
+
+}
+header>div>p{
+    font-size: 0.8em;
+    color: rgb(224, 221, 221);
+}
+header>div>h1{
+    
+    color: rgb(185, 89, 44);
+}
+header>div#info{
+    margin-left: 360px;
+    margin-top: 100px;
+    
+}
+input[type="button"]{
+    background-color:rgb(185, 89, 44) ;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+input[type="button"]:hover{
+    background-color: white;
+    color: #242424;
+}
+nav{
+    
+    margin-top: 0px;
+    height: 70px;
+}
+nav>div>p{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav>div>p:hover{
+    text-decoration: underline;
+    color: white;
+}
+nav>div{
+    text-align: center;
+}
+span#catalogo{
+    display: inline-block;
+    margin-right:100px;
+    margin-top: 5px;
+    height: 70px;
+}
+span.material-symbols-outlined{
+    color: rgb(185, 89, 44);
+}
+span#home{
+    color: rgb(185, 89, 44);
+}
+main>section#presentation{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EDE9E1;
+    height: 500px;
+    
+}
+main>section#presentation>div#text{
+    float: right;
+    margin-right: 400px;
+    font-family: Copperplate, Papyrus, fantasy;
+    
+}
+main>section#presentation>div#text>p{
+    font-size: 0.7em;
+    color: #A4BCD3;
+    
+}
+main>section#presentation>div#imagens{
+    float: left;
+}
+main>section#presentation>div>input[type="button"]:hover{
+    background-color: #242424;
+    color: white;
+}
+img.xicaras{
+    width: 220px;
+    height: 350px;
+    border-radius: 10px;
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+}
+section#services{
+    display: inline-block;
+    height: 600px;
+    color: white;
+    width: 100vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+section#services>div#txtservices{
+    background-color: #8C6344;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    
+    
+   
+}
+section#services>div#txtservices>h1{
+    text-align: center;
+    padding-top:70px;
+}
+section#services>div#txtservices>p{
+    font-size: 0.7em;
+    text-align: center;
+}
+section#services>div#txtservices>input[type="button"]{
+    margin-left: 37%;
+}
+section#services>div#imgservices{
+    background: #8C6344 url("imagens/cafeimg.jpg") no-repeat;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    column-gap: 4;
+    float: right;
+
+    
+    
+   
+}
+div#services1{
+    
+    margin-left: 300px;
+    
+    margin-top: 50px;
+    border-right: #EDE9E1 solid 1px;
+    
+
+   
+}
+div.container1{
+    border-bottom: #EDE9E1 solid 1px;
+}
+div#services1>div>p,h4{
+    font-size: 0.7em;
+    margin-right: 30px;
+    
+}
+
+
+div#services2>div>p,h4{
+    font-size: 0.7em; 
+    margin-left: 30px;
+}
+div#services2{
+   margin-top: 50px;
+    
+}
+img.logos{
+    width: 80px;
+    height: 80px;
+}
+img#beans{
+    margin-left: 60px;
+}
+img#coffe1{
+    margin-left: 60px;
+}
+img#cup{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+img#coffe4{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+section#depoimentos{
+    background-color:#EDE9E1 ;
+    margin-top: 0px;
+    height: 600px;
+}
+section#depoimentos>h1,h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section#depoimentos>p{
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #494949;
+    text-align: center;
+}
+img#person{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left:710px ;
+}
+nav#redes{
+    margin-left: 690px;
+    margin-top: 20px;
+}
+nav#redes>img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+section#products{
+    padding-top: 20px;
+    padding-left:220px;
+    padding-right:220px;
+    background-color: #e3dacb;
+    color: rgb(99, 99, 99);
+    height: 800px;
+}
+
+section#products>div#txt{
+    text-align: center;
+}
+section#products>div#txt>h1{
+    font-size: 1.2em;
+}
+section#products>div#txt>p{
+    font-size: 0.7em;
+}
+section#products>div>div#containerimg-1{
+    background: #8C6344 url("imagens/barbers-1-370x310.jpg") center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 300px;
+}
+section#products>div>div#containertxt-1{
+    height: 50%;
+    text-align: center;
+    font-size: 0.7em;
+    
+}
+section#products>div.container-products{
+    height: 500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.219);
+
+
+}
+section#products>div.container-products>div>nav>i:hover{
+    color: rgb(185, 89, 44);
+}
+section#products>div>div#containerimg-2{
+    height: 50%;
+    background: #8C6344 url("imagens/barbers-2-370x310.jpg");
+    width: 300px;
+}
+section#products>div>div#containertxt-2{
+    font-size: 0.7em;
+    height: 50%;
+    text-align: center;
+    
+}
+section#products>div>div#containerimg-3{
+    height: 50%;
+    background: #8C6344 url("imagens/barbers-3-370x310.jpg");
+    width: 300px;
+
+}
+section#products>div>div#containertxt-3{
+    text-align: center;
+    font-size: 0.7em;
+    height: 50%;
+    
+}
+input#view-products{
+    text-align: center;
+    margin-left: 430px;
+    width: 150px;
+}
+footer{
+    background-color:#403832;
+    color: white;
+    height: 350px;
+}
+footer>div#title{
+    
+    display: flex;
+   justify-content: center;
+   
+}
+footer>div#title>div{
+    padding-right: 120px;
+    margin-left: 120px;
+    
+}
+footer>div#pages{
+    padding-left: 340px;
+    padding-right: 100px;
+    display: inline-block;
+    font-size: 0.6em;
+    
+}
+footer>div#pages2{
+    display: inline-block;
+
+    font-size: 0.6em;
+    padding-right: 108px;
+}
+footer>div#description{
+    display: inline-block;
+    font-size: 0.6em;
+}
+footer>div#follow{
+    margin-left: 1080px;
+    transform: translate(0px,-70px);
+}
+img.logo-2{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+div#page{
+    border-bottom: 1px solid #645E59;
+
+}
+div#descrip{
+    border-bottom: 1px solid #645E59;
+}
+div#follo{
+    border-bottom: 1px solid #645E59;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(185, 89, 44);
+}
+nav#redes-product{
+    margin-top: 20px;
+}
